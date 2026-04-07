@@ -1,0 +1,77 @@
+{
+  "id": "tg-koti",
+  "title": "Knights of the Imperium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>By: Mighty Bjorn</p><p>This unofficial supplement is designed to bring Imperial Knights to Warhammer 40,000: Wrath &amp; Glory. This supplement requires the Warhammer 40,000: Wrath &amp; Glory Core Rulebook and it is recommended to have Church of Steel. The supplement adds the Questoris Pattern Knight and </p><p>Armiger Pattern Knight with some variants to Warhammer 40k: Wrath &amp; Glory. There are also simplified rules for Chaos Knights. </p><p>Everyone is allowed to print, use, or modify this Document to fill the needs of their respected gaming group. This Document may be printed and distributed as long as the original Document creator is credited. I hope you find this document helpful. Happy gaming. </p>",
+  "authors": [
+    {
+      "name": "Tom Gidman",
+      "url": "https://github.com/Gidders91/",
+      "discord": "Gidders",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Gidders91/WnG-Knights-of-the-Imperium",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "knights",
+      "label": "Knights",
+      "path": "packs/knights",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wrath-and-glory",
+      "flags": {}
+    },
+    {
+      "name": "wargear",
+      "label": "Wargear",
+      "path": "packs/wargear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wrath-and-glory",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Knights of the Imperium",
+      "sorting": "m",
+	  "color": "#4205eb",
+      "packs": [
+        "knights",
+        "wargear"
+      ]
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "wng-cos",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "wng-core",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://github.com/Gidders91/WnG-Knights-of-the-Imperium/releases/download/1.0.0/module.json",
+  "download": "https://github.com/Gidders91/WnG-Knights-of-the-Imperium/releases/download/1.0.0/tg-koti.zip"
+}
